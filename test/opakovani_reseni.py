@@ -1,6 +1,6 @@
 import json
 
-# 1. Sestavte seznam studentu (jmeno, vek, trida), minimálně 3 (1 bod)
+# 1. Sestavte seznam studentu (jmeno, vek, trida), minimálně 3 záznamy (1 bod)
 studenti = list()
 studenti.append( {"jmeno": "Petr", "vek": 15, "trida": "1B" })
 studenti.append( {"jmeno": "Sofie", "vek": 17, "trida": "1A" })
