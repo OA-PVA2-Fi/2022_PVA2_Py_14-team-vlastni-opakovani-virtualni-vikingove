@@ -1,28 +1,26 @@
-{
-  "studenti": [
-    {
-      "id": 1,
-      "jmeno": "Jonáš",
-      "vek": 18,
-      "trida": "1A"
-    },
-    {
-      "id": 2,
-      "jmeno": "Pepa",
-      "vek": 17,
-      "trida": "1B"
-    },
-    {
-      "id": 3,
-      "jmeno": "Franta",
-      "vek": 16,
-      "trida": "1C"
-    },
+[
 	{
-      "id": 4,
-      "jmeno": "Jarmila",
-      "vek": 17,
-      "trida": "2D"
-    }
-  ]
-}
+		"id": 1,
+		"jmeno": "Jonáš",
+		"vek": 18,
+		"trida": "1A"
+	},
+	{
+		"id": 2,
+		"jmeno": "Pepa",
+		"vek": 17,
+		"trida": "1B"
+	},
+	{
+		"id": 3,
+		"jmeno": "Franta",
+		"vek": 16,
+		"trida": "1C"
+	},
+	{
+		"id": 4,
+		"jmeno": "Jarmila",
+		"vek": 17,
+		"trida": "2D"
+	}
+]

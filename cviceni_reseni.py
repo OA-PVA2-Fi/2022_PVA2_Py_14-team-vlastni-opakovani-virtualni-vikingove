@@ -1,12 +1,12 @@
 import json
 
-#1 - Načtení obsahu souboru
+#1 - Načtení obsahu souboru data.json
 with open("data.json", encoding='utf8') as file:
     data = json.load(file)
 
-#2 - Výpis všech studentů z načteného souboru
+#2 - Výpis všech studentů z načteného souboru a jejich hodnoty (id, jmeno, vek, trida)
 print("Všichni studenti:")
-for student in data["studenti"]:
+for student in data:
     print(f"ID: {student['id']}, Jméno: {student['jmeno']}, Věk: {student['vek']}, Třída: {student['trida']}")
 
 #3 - Vygenerování seznamu
