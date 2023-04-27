@@ -4,10 +4,10 @@ import json
 with open("data.json", encoding='utf8') as file:
     data = json.load(file)
 
-#2 - Výpis všech studentů z načteného souboru a jejich hodnoty (id, jmeno, vek, trida)
+#2 - Výpis všech studentů z načteného souboru a jejich hodnoty ( jmeno, vek, trida)
 print("Všichni studenti:")
 for student in data:
-    print(f"ID: {student['id']}, Jméno: {student['jmeno']}, Věk: {student['vek']}, Třída: {student['trida']}")
+    print(f"Jméno: {student['jmeno']}, Věk: {student['vek']}, Třída: {student['trida']}")
 
 #3 - Vygenerování seznamu
 # Vygenerujte seznam_jidel v kterém každý vstup bude mít druh, nazev_jidla, cena.
