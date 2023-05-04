@@ -1,0 +1,22 @@
+[
+	{
+		"jmeno": "Jonáš",
+		"vek": 18,
+		"trida": "1A"
+	},
+	{
+		"jmeno": "Pepa",
+		"vek": 17,
+		"trida": "1B"
+	},
+	{
+		"jmeno": "Franta",
+		"vek": 16,
+		"trida": "1C"
+	},
+	{
+		"jmeno": "Jarmila",
+		"vek": 17,
+		"trida": "2D"
+	}
+]
